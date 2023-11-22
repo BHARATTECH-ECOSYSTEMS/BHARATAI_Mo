@@ -95,7 +95,7 @@ class Block(nn.Module):
         return x
 
 class BharatAI(PreTrainedModel):
-    config_class = CustomAIConfig
+    config_class = BharatAIConfig
     def __init__(self, config):
         super().__init__(config)
         self.token_embedding_table = nn.Embedding(config.vocab_size, config.n_embd)
