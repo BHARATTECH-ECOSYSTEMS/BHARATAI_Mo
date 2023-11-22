@@ -17,7 +17,7 @@ PRETRAINED_VOCAB_FILES_MAP = {
 PRETRAINED_POSITIONAL_EMBEDDINGS_SIZES = {}
 
 
-class bharatAITokenizer(PreTrainedTokenizer):
+class BharatAITokenizer(PreTrainedTokenizer):
     """
     Construct a custom tokenizer. Based on byte-level Byte-Pair-Encoding.
     Args:
